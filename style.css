@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#menuButton {
+    position: relative;
+}
+
+#navMenu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: lightblue;
+}
+
+.hidden {
+    display: none;
+}
+
+.thumbnail {
+    max-width: 200px;
+}
