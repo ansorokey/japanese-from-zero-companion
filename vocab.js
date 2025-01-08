@@ -297,11 +297,21 @@ export const data = [
 
 export function makeVocabList(group) {
     const vocabBox = document.createElement('div');
+    vocabBox.classList.add('vocabBox');
+
+    // const vocabBoxHeaders = document.createElement('div');
+    const kanaBox = document.createElement('div');
+    const kanjiBox = document.createElement('div');
+    const englishBox = document.createElement('div');
+
+    vocabBox.appendChild(kanaBox);
+    vocabBox.appendChild(kanjiBox);
+    vocabBox.appendChild(englishBox);
 
     group.vocab.map(card => {
-        const newCard = document.createElement('p');
-        newCard.innerText = card['english'];
-        vocabBox.appendChild(newCard);
+        kanaBox.innerHTML += `<p>${card['kana'] ? card['kana'] : '-----' }</p>`;
+        kanjiBox.innerHTML += `<p>${card['kanji'] ? card['kanji'] : '-----'}</p>`;
+        englishBox.innerHTML += `<p>${card['english']}</p>`;
     });
 
     return vocabBox;
