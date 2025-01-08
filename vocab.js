@@ -18,60 +18,60 @@ export const data = [
         name: 'The Body',
         vocab: [
             {
-                kana: '',
-                kanji: '',
+                kana: 'くち',
+                kanji: '口',
                 english: 'mouth',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'め',
+                kanji: '目',
                 english: 'eye',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'みみ',
+                kanji: '耳',
                 english: 'ear',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'はな',
+                kanji: '鼻',
                 english: 'nose',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'かお',
+                kanji: '顔',
                 english: 'face',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'て',
+                kanji: '手',
                 english: 'hand',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'あし',
+                kanji: '足',
                 english: 'foot, leg',
                 imgSrc: ''
             },            {
-                kana: '',
-                kanji: '',
+                kana: 'ゆび',
+                kanji: '指',
                 english: 'finger',
                 imgSrc: ''
             },            {
-                kana: '',
-                kanji: '',
+                kana: 'あたま',
+                kanji: '頭',
                 english: 'head',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'は',
+                kanji: '歯',
                 english: 'tooth, teeth',
                 imgSrc: ''
             },
@@ -82,62 +82,62 @@ export const data = [
         name: 'Bed and Bath',
         vocab: [
             {
-                kana: '',
-                kanji: '',
+                kana: 'まくら',
+                kanji: '枕',
                 english: 'pillow',
                 imgSrc: ''
             },
             {
-                kana: '',
+                kana: 'べっど',
                 kanji: '',
                 english: 'bed',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'ふとん',
+                kanji: '布団',
                 english: 'futon',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'もうふ',
+                kanji: '毛布',
                 english: 'blanket',
                 imgSrc: ''
             },
             {
-                kana: '',
+                kana: 'タオル',
                 kanji: '',
                 english: 'towel',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'おふろ',
+                kanji: 'お風呂',
                 english: 'bath',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'せっけん',
+                kanji: '石けん',
                 english: 'soap',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'ハブラシ',
+                kanji: '歯ブラシ',
                 english: 'toothbrush',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'かがみ',
+                kanji: '鏡',
                 english: 'mirror',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'まど',
+                kanji: '窓',
                 english: 'window',
                 imgSrc: ''
             },
@@ -148,32 +148,32 @@ export const data = [
         name: 'Family',
         vocab: [
             {
-                kana: '',
-                kanji: '',
+                kana: 'おかあさｎ',
+                kanji: 'お母さん',
                 english: 'mother',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'おとうさん',
+                kanji: 'お父さん',
                 english: 'father',
                 imgSrc: ''
             },
             {
-                kana: '',
+                kana: 'おじいさん',
                 kanji: '',
                 english: 'grandfather',
                 imgSrc: ''
             },
             {
-                kana: '',
+                kana: 'おばあさん',
                 kanji: '',
                 english: 'grandmother',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'あかちゃん',
+                kanji: '赤ちゃん',
                 english: 'baby',
                 imgSrc: ''
             },
@@ -184,31 +184,31 @@ export const data = [
         name: 'Greetings and Farewells',
         vocab: [
             {
-                kana: '',
+                kana: 'ありがとう',
                 kanji: '',
                 english: 'thank you, thanks',
                 imgSrc: ''
             },
             {
-                kana: '',
+                kana: 'おはようございます',
                 kanji: '',
                 english: 'good morning',
                 imgSrc: ''
             },
             {
-                kana: '',
+                kana: 'おやすみなさい',
                 kanji: '',
                 english: 'good night',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'こんにちは',
+                kanji: '今日は',
                 english: 'good afternoon',
                 imgSrc: ''
             },
             {
-                kana: '',
+                kana: 'さようなら',
                 kanji: '',
                 english: 'goodbye, farewell',
                 imgSrc: ''
@@ -220,74 +220,74 @@ export const data = [
         name: 'Animals',
         vocab: [
             {
-                kana: '',
-                kanji: '',
+                kana: 'ぞう',
+                kanji: '象',
                 english: 'elephant',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'うま',
+                kanji: '馬',
                 english: 'horse',
                 imgSrc: ''
             },
             {
-                kana: '',
-                kanji: '',
+                kana: 'うさぎ',
+                kanji: '兎',
                 english: 'rabbit',
                 imgSrc: ''
             },  
             {
-                kana: '',
+                kana: 'パンダ',
                 kanji: '',
                 english: 'panda',
                 imgSrc: ''
             },  
             {
-                kana: '',
-                kanji: '',
+                kana: 'ねずみ',
+                kanji: '鼠',
                 english: 'mouse',
                 imgSrc: ''
             },  
             {
-                kana: '',
+                kana: 'ライオン',
                 kanji: '',
                 english: 'lion',
                 imgSrc: ''
             },  
             {
-                kana: '',
-                kanji: '',
+                kana: 'きりん',
+                kanji: 'キリン',
                 english: 'giraffe',
                 imgSrc: ''
             },  
             {
-                kana: '',
-                kanji: '',
+                kana: 'うし',
+                kanji: '牛',
                 english: 'cow',
                 imgSrc: ''
             },  
             {
-                kana: '',
-                kanji: '',
+                kana: 'さる',
+                kanji: '猿',
                 english: 'monkey',
                 imgSrc: ''
             },  
             {
-                kana: '',
-                kanji: '',
+                kana: 'ひつじ',
+                kanji: '羊',
                 english: 'sheep',
                 imgSrc: ''
             },  
             {
-                kana: '',
-                kanji: '',
+                kana: 'きつね',
+                kanji: '狐',
                 english: 'fox',
                 imgSrc: ''
             },  
             {
-                kana: '',
-                kanji: '',
+                kana: 'くま',
+                kanji: '熊',
                 english: 'bear',
                 imgSrc: ''
             },  
