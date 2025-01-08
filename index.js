@@ -28,7 +28,7 @@ contentButtons.forEach((btn) => {
                     const header = document.createElement('h2');
                     header.innerText = group['name'];
                                         
-                    wrapper.addEventListener('click', () => { 
+                    header.addEventListener('click', () => { 
                         if (wrapper.dataset.isOpen === "y") {
                             wrapper.innerHTML = ""; // clear the wrapper
                             wrapper.appendChild(header); // Add the header back in
