@@ -1,11 +1,4 @@
-const chapters = [
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
+const chapter8 =
     {
         name: 'Posession',
         newWords: [
@@ -92,7 +85,7 @@ const chapters = [
             },
         ],
         notes: [
-            "'Boku' is used by men to refer to themselves. It can also refer to a little boy if you don't know their name. Females may use it when trying to sound boyish or in a song.",
+            "ぼく is used by men to refer to themselves. It can also refer to a little boy if you don't know their name. Females may use it when trying to sound boyish or in a song.",
             "To sound cute, girls may refer to themselve's as 'atashi'",
             "'dare' can be used as 'who' wherever, except when asking 'Who are you?', 'dare desu ka?' Is rude. 'donata desu ka' is more polite.",
             "Differentiating between he/boyfriend and she/girlfriend depends on context. 'kareshi' only means boyfriend.",
@@ -299,71 +292,142 @@ const chapters = [
                 j: "おばあさんの",
                 e: ""
             }, {
-                j: "",
+                j: "かれのです。",
+                e: ""
+            }, {
+                j: "おかあさんのです。",
+                e: ""
+            }, {
+                j: "たなかのくるまです。",
+                e: ""
+            }, {
+                j: "わたしのいぬ",
+                e: ""
+            }, {
+                j: "あなたのおかあさん",
+                e: ""
+            }, {
+                j: "かのじょのねこ。",
+                e: ""
+            }, {
+                j: "かれのいぬ",
+                e: ""
+            }, {
+                j: "おとうさんのぺン",
+                e: ""
+            }, {
+                j: "あなたのかのじょのなまえ",
+                e: ""
+            }, {
+                j: "ぼくのがっこうのコンピューター",
+                e: ""
+            }, {
+                j: "あなたのかのじょのなまえはなんですか。",
+                e: ""
+            }, {
+                j: "おかあさんのともだちのなまえははるなです。",
+                e: "",
+                c: "we don't need to specify MY mom, we can assume it's my mom."
+            }, {
+                j: "わたしのともだちのあきこさんはにじゅうごさい。",
+                e: "",
+                c: "Notice the の after ともだち to refer to あきこ"
+            }, {
+                j: "だれですか。",
+                e: ""
+            }, {
+                j: "わたしです。",
+                e: ""
+            }, {
+                j: "ひでこです。",
+                e: ""
+            }, {
+                j: "おかあさんです。",
+                e: ""
+            }, {
+                j: "だれのくるまですか。",
+                e: ""
+            }, {
+                j: "わたしのくるまです。",
+                e: ""
+            }, {
+                j: "わたしです。",
+                e: ""
+            }, {
+                j: "たなかさんのくるまです。",
+                e: ""
+            }, {
+                j: "わかりません。",
+                e: ""
+            }, {
+                j: "どっちがあなたのうさぎですか。",
+                e: ""
+            }, {
+                j: "あっちがわたしのうさぎです。",
+                e: ""
+            }, {
+                j: "そっちです。",
+                e: ""
+            }, {
+                j: "これはあなたのくるまですか。",
+                e: ""
+            }, {
+                j: "はい、そうです。",
+                e: ""
+            }, {
+                j: "いいえ、ともだちのくるまです。",
+                e: ""
+            }, {
+                j: "いいえ、かのじょのくるまです。",
+                e: ""
+            }, {
+                j: "いいえ、かのじょです。",
+                e: ""
+            }, {
+                j: "あなたのとりはどれですか。",
+                e: ""
+            }, {
+                j: "ぼくがのとりはそれです。",
                 e: ""
             }, {
                 j: "",
+                e: "あれです。"
+            }, {
+                j: "あなたのねこはどれですか。",
                 e: ""
             }, {
-                j: "",
+                j: "わたしのねこはそれです。",
                 e: ""
             }, {
-                j: "",
+                j: "わたしのねこはあれです。",
                 e: ""
             }, {
-                j: "",
+                j: "おかあさんのなまえはなんですか。",
                 e: ""
             }, {
-                j: "",
+                j: "マリアです。",
                 e: ""
             }, {
-                j: "",
+                j: "よしこです。",
                 e: ""
             }, {
-                j: "",
+                j: "それはかのじょのタオルですか。",
                 e: ""
             }, {
-                j: "",
+                j: "いいえ、かれのタオルです。",
                 e: ""
             }, {
-                j: "",
+                j: "いいえ、まみこさんのタオルです。",
                 e: ""
             }, {
-                j: "",
+                j: "あなたのともだちのいぬのなまえはなんですか。",
                 e: ""
             }, {
-                j: "",
+                j: "いぬのなまえはポチです。",
                 e: ""
             }, {
-                j: "",
+                j: "わかりません。",
                 e: ""
-            }, {
-                j: "",
-                e: ""
-            }, {
-                j: "",
-                e: ""
-            }, {
-                j: "",
-                e: ""
-            }, {
-                j: "",
-                e: ""
-            }, {
-                j: "",
-                e: ""
-            }, {
-                j: "",
-                e: ""
-            }, {
-                j: "",
-                e: ""
-            }, {
-                j: "",
-                e: ""
-            },
-            
-
+            },            
         ]
     }
-]
