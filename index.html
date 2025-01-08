@@ -7,25 +7,19 @@
     <title>Japanese From Zero! Companion</title>
 </head>
 <body>
-    <h1>Konichiwa!</h1>
-    <h2>This website is to help study alongside the Japanese From Zero series by George Trombley, Yukari Takenaka, and Kanako Hatanaka.</h2>
-    <img class="thumbnail" src="./assets/japfromzero1.jpg" alt="Cover for Japanese From Zero! Book 1">
-    <p>The book is available for purchase <a href="https://a.co/d/4Fx6FIa" target="_blank">here.</a> Check it out!</p>
-
+    <nav id="navMenu">
+        <button class="contentButton" value="home">Home</button>
+        <button class="contentButton" value="vocab">Vocab</button>
+        <button class="contentButton" value="lessons">Lessons</button>
+        <button class="contentButton" value="practices">Practices</button>
+    </nav>
     
-    <button id="menuButton">
-        Menu
-        <nav id="navMenu" class="hidden">
-            <ul>
-                <li id="vocab">Vocab</li>
-                <li>Chapter 1</li>
-                <li>Chapter 2</li>
-                <li>Chapter 3</li>
-            </ul>
-        </nav>
-    </button>
-
-    <div id="contentBox"></div>
+    <div id="contentBox">
+        <h1>Konichiwa!</h1>
+        <h2>This website is to help study alongside the Japanese From Zero series by George Trombley, Yukari Takenaka, and Kanako Hatanaka.</h2>
+        <img class="thumbnail" src="./assets/japfromzero1.jpg" alt="Cover for Japanese From Zero! Book 1">
+        <p>The book is available for purchase <a href="https://a.co/d/4Fx6FIa" target="_blank">here.</a> Check it out!</p>
+    </div>
 
     <script src="./index.js" type="module"></script>
         

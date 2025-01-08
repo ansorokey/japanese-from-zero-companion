@@ -1,19 +1,51 @@
-import {data, makeVocabList} from "./vocab.js";
+import {data as vocab, makeVocabList} from "./vocab.js";
 
-const menuButton = document.querySelector('#menuButton');
-const listItems = document.querySelectorAll('li');
 const contentBox = document.querySelector('#contentBox');
-const vocab = document.querySelector('#vocab');
+const contentButtons = document.querySelectorAll('.contentButton');
+
+contentButtons.forEach((btn) => {
+    console.log(btn);
+    switch (btn.value) {
+        case "home":
+            btn.addEventListener('click', () => {
+                contentBox.innerHTML = ""; // clear content box                
+                contentBox.innerHTML += `<h1>Konichiwa!</h1>`;
+                contentBox.innerHTML += `<h2>This website is to help study alongside the Japanese From Zero series by George Trombley, Yukari Takenaka, and Kanako Hatanaka.</h2>`;
+                contentBox.innerHTML += `<img class="thumbnail" src="./assets/japfromzero1.jpg" alt="Cover for Japanese From Zero! Book 1"></img>`;
+                contentBox.innerHTML += `<p>The book is available for purchase <a href="https://a.co/d/4Fx6FIa" target="_blank">here.</a> Check it out!</p>`;
+            })
+            break;
+
+        case "vocab":
+            btn.addEventListener('click', () => {
+                contentBox.innerHTML = ""; // clear content box                
+                vocab.forEach((group) => {
+                    const wrapper = document.createElement('div');
+                    wrapper.dataset.isOpen = "n";
+
+                    const header = document.createElement('h2');
+                    header.innerText = group['name'];
+                                        
+                    wrapper.addEventListener('click', () => { 
+                        if (wrapper.dataset.isOpen === "y") {
+                            wrapper.innerHTML = ""; // clear the wrapper
+                            wrapper.appendChild(header); // Add the header back in
+                            wrapper.dataset.isOpen = "n"; // set wrapper to closed
+                        } else {
+                            wrapper.appendChild(makeVocabList(group)); // add the content after the header
+                            wrapper.dataset.isOpen = "y"; // set wrapper to opem
+                        }
+                    });
+
+                    wrapper.appendChild(header)
+                    contentBox.appendChild(wrapper);
 
 
-vocab.addEventListener('click', () => {
-    data.forEach((group) => {
-        const header = document.createElement('h2');
-        header.innerText = group['name'];
-        contentBox.appendChild(header);
-    });
-})
-
-menuButton.addEventListener('click', () => {
-    document.querySelector('#navMenu').classList.toggle('hidden');
+                });
+            })
+            break;
+    
+        default:
+            break;
+    }
 })

@@ -86,7 +86,8 @@ export const data = [
                 kanji: '',
                 english: 'pillow',
                 imgSrc: ''
-            },\            {
+            },
+            {
                 kana: '',
                 kanji: '',
                 english: 'bed',
@@ -149,19 +150,67 @@ export const data = [
             {
                 kana: '',
                 kanji: '',
-                english: '',
+                english: 'mother',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'father',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'grandfather',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'grandmother',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'baby',
                 imgSrc: ''
             },
         ]
     },
     {
         group: 'D',
-        name: '',
+        name: 'Greetings and Farewells',
         vocab: [
             {
                 kana: '',
                 kanji: '',
-                english: '',
+                english: 'thank you, thanks',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'good morning',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'good night',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'good afternoon',
+                imgSrc: ''
+            },
+            {
+                kana: '',
+                kanji: '',
+                english: 'goodbye, farewell',
                 imgSrc: ''
             },
         ]
@@ -247,14 +296,13 @@ export const data = [
 ]
 
 export function makeVocabList(group) {
-    const newTable = document.createElement('div');
+    const vocabBox = document.createElement('div');
 
     group.vocab.map(card => {
         const newCard = document.createElement('p');
         newCard.innerText = card['english'];
-
-        newTable.appendChild(newCard);
+        vocabBox.appendChild(newCard);
     });
 
-    return newTable;
+    return vocabBox;
 }
