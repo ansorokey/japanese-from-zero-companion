@@ -309,9 +309,9 @@ export function makeVocabList(group) {
     vocabBox.appendChild(englishBox);
 
     group.vocab.map(card => {
-        kanaBox.innerHTML += `<p>${card['kana'] ? card['kana'] : '-----' }</p>`;
-        kanjiBox.innerHTML += `<p>${card['kanji'] ? card['kanji'] : '-----'}</p>`;
-        englishBox.innerHTML += `<p>${card['english']}</p>`;
+        kanaBox.innerHTML += `<p class="textBox">${card['kana'] ? card['kana'] : '-----' }</p>`;
+        kanjiBox.innerHTML += `<p class="bigHover textBox">${card['kanji'] ? card['kanji'] : '-----'}</p>`;
+        englishBox.innerHTML += `<p class="textBox">${card['english']}</p>`;
     });
 
     return vocabBox;

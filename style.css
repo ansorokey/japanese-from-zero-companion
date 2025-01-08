@@ -57,3 +57,16 @@ body {
 .thumbnail {
     max-width: 200px;
 }
+
+/* .bigHover {
+    position: relative;
+} */
+
+.bigHover:hover {
+    scale: 5;
+    background-color: aqua;
+}
+
+.textBox {
+    height: 24px;
+}
