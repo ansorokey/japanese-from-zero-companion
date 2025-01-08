@@ -26,7 +26,8 @@ contentButtons.forEach((btn) => {
                     wrapper.dataset.isOpen = "n";
 
                     const header = document.createElement('h2');
-                    header.innerText = group['name'];
+                    header.innerText = group.group + '. ' +  group['name'];
+                    header.before = `<span>${group.group}</span>`;
                                         
                     header.addEventListener('click', () => { 
                         if (wrapper.dataset.isOpen === "y") {
